@@ -20,7 +20,6 @@ class Dashboard extends Component {
     return(
       <div className='col-md-6 col-md-offset-3'>
         <div className='dashboard-content'>
-          <img src='scrapy-do-logo.png' alt='Scrapy-Do Logo' />
           <div className='text-summary'>
             <div>Version {this.props.daemonVersion} @ {this.props.hostname}</div>
             <div>Server time: {serverTime} ({this.props.timezone})</div>

@@ -24,7 +24,7 @@ class ScrapyDoNav extends Component {
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">
-              Scrapy Do
+              Orb Weaver
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
