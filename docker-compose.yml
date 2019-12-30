@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: scrapy-do-web
+    command: bash
+    volumes:
+      - .:/opt/scrapy_do
+    ports:
+      - "7654:7654"
